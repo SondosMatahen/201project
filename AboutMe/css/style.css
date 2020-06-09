@@ -1,5 +1,5 @@
 body{
-    background-color: bisque;
+    background-color: hsl(33, 69%, 82%);
   }
   
   h1{
@@ -10,16 +10,16 @@ body{
     color: darkblue;
   }
   
-  .European{
-    color: darkred;
+  .Edu{
+    color: rgb(131, 24, 24);
   }
   
-  .American{
-    color: darkgreen;
+  .Volunt{
+    color: rgb(18, 105, 18);
   }
   
-  .japanese{
-    color:darksalmon;
+  .Age {
+    color:rgb(150, 80, 57);
   }
   
   #japanese-description{
