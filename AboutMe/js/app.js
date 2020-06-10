@@ -8,11 +8,11 @@ console.log('The user entered the name ', userName);
 alert(' Welcome ' + userName)
 
 var nationality = prompt('Do you guess I am a syrian ? yes or no ').toLowerCase();
-if (nationality === 'yes') {
+if (nationality === 'yes'|| nationality == 'y') {
     console.log('the user answered yes');
     sum = sum + 1;
     alert('Correct !')
-} else if (nationality === 'no') {
+} else if (nationality === 'no' nationality == 'n') {
     console.log('the user answered no');
     alert('Wrong !')
 }
@@ -26,11 +26,11 @@ else {
 
 
 var university = prompt('Do you guess I have graduated from Zarqa uni ? yes or no ').toLowerCase();
-if (university === 'yes') {
+if (university === 'yes' || university == 'y' ) {
     console.log('the user answered yes');
     sum = sum + 1;
     alert('Correct !')
-} else if (university === 'no') {
+} else if (university === 'no'  || university == 'n') {
     console.log('the user answered no');
     alert('Wrong !')
 }
@@ -41,11 +41,11 @@ else {
 
 
 var favdish = prompt('Do you guess my favorit dish is Kabsa ? yes or no ').toLowerCase();
-if (favdish === 'yes') {
+if (favdish === 'yes'  || favdish == 'y') {
     console.log('the user answered yes');
     alert('Correct !')
     sum = sum + 1;
-} else if (favdish === 'no') {
+} else if (favdish === 'no' || favdish == 'n') {
     console.log('the user answered no');
     alert('Wrong !')
 }
@@ -57,13 +57,13 @@ else {
 
 
 var favcol = prompt('Do you guess my favorit color is white ? yes or no ').toLowerCase();
-if (favcol === 'yes') {
+if (favcol === 'yes' || favcol == 'y') {
     console.log('the user answered yes');
     sum = sum + 1;
     alert('Correct !')
 
 
-} else if (favcol === 'no') {
+} else if (favcol === 'no' || favcol == 'n') {
     console.log('the user answered no');
     alert('Wrong !')
 }
@@ -76,11 +76,11 @@ else {
 
 
 var family = prompt('Do you guess my family name is Anees ? yes or no ').toLowerCase();
-if (family === 'yes') {
+if (family === 'yes' || family == 'y') {
     console.log('the user answered yes');
     alert('Correct !')
     sum = sum + 1;
-} else if (family === 'no') {
+} else if (family === 'no' || favcol == 'y') {
     console.log('the user answered no');
     alert('Wrong !')
 }
@@ -154,7 +154,7 @@ alert('The correct answers are really, ok, good ');
 
 console.log(sum),
 
-    alert(' Your score is ' , sum );
+    alert(' Your score is ' + sum );
 
 
 
